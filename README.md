@@ -5,7 +5,7 @@ This is a very simple commond line python script which allows you to parse data 
 <pre></code>
 usage: apacheLogParser.py [-h] -l  [-i] [-u] [-p] [-m] [-s]
 
-Apache Log parser Tool
+Apache Log Parser Tool
 
 options:
   -h, --help      show this help message and exit
