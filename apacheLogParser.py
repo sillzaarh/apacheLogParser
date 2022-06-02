@@ -76,6 +76,7 @@ if os.path.isfile(args.log):
     if compare:
         file = open(args.log)
         logs = file.readlines()
+        file.close()
         for log in logs:
             log = log.strip()
             tmp = isPresent(log, compare)
