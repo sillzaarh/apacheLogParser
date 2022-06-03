@@ -19,14 +19,12 @@ def isPresent(log, compare_param):
     list = log.split(" ")
     for i in range(0, len(list)): 
         list[i] = list[i].strip("\"")
-        list[i] = list[i].strip("[")
-        list[i] = list[i].strip("]")
     
     for i in compare_param:
         if i not in list:
             return
     
-    return [list[0], list[3], list[5], list[6], list[7], list[8], list[9], list[10]]
+    return [list[0], list[3]+list[4], list[5], list[6], list[7], list[8], list[9], list[10]]
 
 # List where returned log will be stored to display
 data = []
