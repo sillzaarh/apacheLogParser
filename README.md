@@ -22,6 +22,4 @@ options:
 ./apacheLogParser.py -l apache_logs.txt -i 93.114.45.13
 ./apacheLogParser.py -l apache_logs.txt -m GET
 ./apacheLogParser.py -l apache_logs.txt -s 200 - 93.114.45.13
-</code></pre><br>
-
-> *Don't hate the hacker, hate the code*
+</code></pre>
